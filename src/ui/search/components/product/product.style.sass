@@ -1,0 +1,49 @@
+@import "bulma/sass/grid/columns.sass"
+
+.container-product
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 16px
+  box-sizing: border-box
+  background-color: white
+  border-bottom: 1px solid #EEEEEE
+  .container-image-info
+    flex: 1
+    display: flex
+    .container-image-product
+      min-width: 180px
+      min-height: 180px
+      max-width: 180px
+      max-height: 180px
+      margin-right: 16px
+      display: flex
+      align-items: center
+      justify-content: center
+      border-radius: 4px
+      cursor: pointer
+      .image-product
+        max-width: 180px
+        max-height: 100%
+    .container-info
+      display: flex
+      flex-direction: column
+      .container-value-product
+        margin-bottom: 32px
+        margin-top: 16px
+        .value-product
+          font-size: 24px
+          font-family: sans-serif
+          color: #333333
+        .icon-shopping
+          width: 17px
+          margin-left: 2px
+      .link-title
+        text-decoration: none
+        .title-product
+          margin: 0px
+          font-size: 18px
+          color: #666666
+          font-family: sans-serif
+          font-weight: 300
+          cursor: pointer

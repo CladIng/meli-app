@@ -1,0 +1,45 @@
+@import "bulma/sass/grid/columns.sass"
+
+$heigth_header: 33px
+
+.header
+  background-color: #FFE600
+  height: $heigth_header + 15px
+
+.container-header
+  display: flex
+  align-items: center
+  height: 100%
+
+.container-logo
+  display: flex
+  align-items: center
+  .logo-geader
+    height: $heigth_header
+
+.columns
+  height: 100%
+
+.container-search
+  display: flex
+  align-items: center
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2)
+  .input-search
+    flex: 1
+    height: $heigth_header
+    outline: none
+    padding: 0px 8px
+    box-sizing: border-box
+    border: 1px solid #EEEEEE
+    border-radius: 2px 0px 0px 2px
+  .container-icon-search
+    background-color: #EEEEEE
+    display: flex
+    align-items: center
+    justify-content: center
+    width: $heigth_header
+    height: $heigth_header
+    border-radius: 0px 2px 2px 0px
+    cursor: pointer
+    .logo-geader
+      width: 16px
